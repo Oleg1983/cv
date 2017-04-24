@@ -1,0 +1,211 @@
+html,body{
+ 	margin: 0;
+ 	font-size: 16px; 	 
+ 	font-family: Arial, sans-serif;	
+}
+
+ul{
+ 	margin: 0;
+ 	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	background-image: url(../img/022serii.jpg);	
+}
+
+header{
+	border-top: 1px solid #09FF05;
+}
+
+#header nav li a {
+	color: #fff;	
+	padding: 15px 15px 5px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition-property: color, border-color;
+	transition-duration: .5s, .9s;
+}
+
+#header nav a:hover {
+	color: red;
+	border-bottom: 2px solid #09FF05;
+}
+
+/* Main */
+
+#about{
+	padding: 15px;	
+}
+
+.wrapImg{	
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+#about img {	
+	margin-right: 15px;
+	border: none;
+	border-radius: 10px;
+	width: 100%;
+	transition: all .3s;
+}
+
+#about img:hover {
+	transform: scale(1.05);
+}
+
+/*.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}*/
+
+#about p {
+	overflow: hidden;
+	font-size: 16px;
+	color: #272822;
+	text-indent: 15px;
+}
+
+#about h1{
+	text-align: center;
+	color: #272822;	
+}
+
+/* Skils */
+
+h2{
+	text-align: center;
+
+}
+
+#skills{
+	text-align: center;
+}
+
+
+.skil{	
+	text-align: center;
+	margin: 10px;
+}
+
+.skil img{
+	width: 200px;
+	transition: all .3s;
+}
+
+.skil img:hover {
+	transform: scale(1.05);
+}
+
+/* Certif */
+
+.certificates{
+	padding: 25px 0 50px;	
+}
+
+.certificates img{	
+	width: 100%;
+}
+
+.certificates figcaption, .myJobs figcaption{
+	text-align: center;
+}
+
+.certificates figure, .myJobs figure{
+	margin-bottom: 15px;
+	
+}
+
+.certificates img:hover, .myJobs img:hover{
+	box-shadow: 0 0 8px rgba(0,0,0,.5);
+}
+
+.certificates a, .myJobs a{
+	text-decoration: none;
+	color: #272822;
+	
+}
+
+.certificates a:hover figcaption{
+	font-style: italic;
+}
+
+.certificates ul {
+	list-style-type: none;
+	list-style-image: url(../img/arrow.png);
+	list-style-position: inside;
+	max-width: 790px;
+	margin: 0 auto;	
+	padding: 5px;
+}
+
+/* End Certif */
+
+
+/*My Jobs*/
+.myJobs{
+	margin-bottom: 35px;
+	/*outline: 1px solid red;*/
+}
+
+.myJobs img{
+	width: 100%;
+	border-radius: 10px;
+	transition: all .3s;
+}
+
+.myJobs img:hover {
+	transform: scale(1.01);
+}
+
+.myJobs h2{
+	margin-bottom: 20px;
+}
+
+/*End My Jobs*/
+
+/* footer */
+
+footer {
+	position: relative;
+	min-height: 80px;
+	background-color: #222222;
+	border-bottom: 1px solid #09FF05;
+	color: #eee;
+}
+
+footer p{
+	line-height: 80px;
+	/*outline: 1px solid red;*/
+}
+
+footer p.tel{
+	text-align: right;
+}
+
+
+footer img{
+	width: 100%;
+}
+
+footer img:hover{
+	box-shadow: 0 0 8px rgba(0,0,0,.5);
+}
+/* End footer */
+
+/*button*/
+
+.button{
+	position: absolute;
+	right: 10px;
+	bottom: 100px; 
+	width: 70px;	
+}
+
+.button img {
+	border-radius: 50%;	
+}
+
+/* End button*/
